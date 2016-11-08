@@ -9,6 +9,7 @@ export class AppComponent implements OnInit{
   title = 'app works!';
   
   ngOnInit(){
-    (<any>$("#calendar")).fullcalendar();
+   // (<any>$("#calendar")).fullcalendar();
+     $("#calendar").fullcalendar();
   }
 }
