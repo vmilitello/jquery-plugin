@@ -10,6 +10,6 @@ export class AppComponent implements OnInit{
   
   ngOnInit(){
    // (<any>$("#calendar")).fullcalendar();
-     $("#calendar").fullcalendar();
+     $("#calendar").fullCalendar();
   }
 }
